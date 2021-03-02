@@ -21,12 +21,19 @@ public class zadania_arrays {
 
         //ZADANIE 3
 
-        String[] stringsArray = {1, 2, 3};
-        Random rand = new Random();
 
-        int rand_string = rand.toString("Pimpek", "Adonis", "Pablo");
+        //ZADANIE 4
 
-        System.out.println("Imię: " +rand_string);
+
+        //ZADANIE 5
+
+        Integer[] intArray_1 = {5, 12, 14, 10, 7, 6, 9, 11, 1, 3, 8, 2, 4, 20, 17, 16, 13, 15, 19, 18};
+
+        Arrays.sort(intArray_1, 0, 9, Collections.reverseOrder());
+        System.out.println("Sortowanie malejąco: " +Arrays.toString(intArray_1));
+
+        Arrays.sort(intArray_1, 9, 20);
+        System.out.println("Sorotwanie rosnąco: " + Arrays.toString(intArray_1));
 
 
     }
