@@ -29,11 +29,9 @@ public class zadania_arrays {
 
         Integer[] intArray_1 = {5, 12, 14, 10, 7, 6, 9, 11, 1, 3, 8, 2, 4, 20, 17, 16, 13, 15, 19, 18};
 
-        Arrays.sort(intArray_1, 0, 9, Collections.reverseOrder());
-        System.out.println("Sortowanie malejąco: " +Arrays.toString(intArray_1));
-
+        Arrays.sort(intArray_1, 0, 10, Collections.reverseOrder());
         Arrays.sort(intArray_1, 9, 20);
-        System.out.println("Sorotwanie rosnąco: " + Arrays.toString(intArray_1));
+        System.out.print("Tablica: "+ Arrays.toString(intArray_1));
 
 
     }
