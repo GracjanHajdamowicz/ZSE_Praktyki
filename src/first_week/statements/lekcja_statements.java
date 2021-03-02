@@ -1,13 +1,13 @@
-package first_week.statements;
-
-import java.util.Scanner;
-
-public class lekcja_statements {
-
-    public static void main(String[] args) {
-
-        Scanner skaner = new Scanner(System.in);
-
+//package first_week.statements;
+//
+//import java.util.Scanner;
+//
+//public class lekcja_statements {
+//
+//    public static void main(String[] args) {
+//
+//        Scanner skaner = new Scanner(System.in);
+//
 //        boolean stan = false;
 //
 //        if (stan) {
@@ -26,7 +26,7 @@ public class lekcja_statements {
 //        } else {
 //            System.out.println(("Jesteś niepełnoletni!"));
 //        }
-
+//
 //        System.out.println("Podaj liczbę: ");
 //        int liczba = skaner.nextInt();
 //
@@ -36,7 +36,7 @@ public class lekcja_statements {
 //        else{
 //            System.out.println("Liczba nie mieści się w zakresie.");
 //        }
-
+//
 //        System.out.println("Podaj liczbę całkowitą A: ");
 //        int a = skaner.nextInt();
 //
@@ -62,7 +62,7 @@ public class lekcja_statements {
 //                else{
 //                    System.out.println("A jest równe B.");
 //                }
-
+//
 //                char charA = 'A';
 //                char charB = 'B';
 //
@@ -72,7 +72,7 @@ public class lekcja_statements {
 //                else{
 //                        System.out.println("charA ma mniejsza wartość od charB w tabelii ASCII.");
 //                    }
-
+//
 //                String hello = "hello";
 //                String world = "world";
 //
@@ -82,7 +82,7 @@ public class lekcja_statements {
 //                else{
 //                    System.out.println("hello nie jest równe world");
 //                }
-
+//
 //        System.out.println("Podaj swój wybór (1, 2): ");
 //        int x = skaner.nextInt();
 //
@@ -97,7 +97,7 @@ public class lekcja_statements {
 //                System.out.println("Nie wybrano poprawnej opcji.");
 //                break;
 //        }
-
+//
 //        System.out.println("Podaj swój wybór (1, 2, A, B): ");
 //        String y = skaner.next();
 //
@@ -118,26 +118,26 @@ public class lekcja_statements {
 //                System.out.println("Nie wybrano poprawnej opcji.");
 //                break;
 //        }
-
-        System.out.println("Podaj swój wybór (1, 2, A, B): ");
-        char z = skaner.next().charAt(0);
-
-        switch (z){
-            case '1':
-                System.out.println("Przypadek pierwszy.");
-                break;
-            case '2':
-                System.out.println("Przypadek drugi.");
-                break;
-            case 'A':
-                System.out.println("Przypadek A.");
-                break;
-            case 'B':
-                System.out.println("Przypadek B.");
-                break;
-            default:
-                System.out.println("Nie wybrano poprawnej opcji.");
-                break;
-        }
-    }
-}
+//
+//        System.out.println("Podaj swój wybór (1, 2, A, B): ");
+//        char z = skaner.next().charAt(0);
+//
+//        switch (z){
+//            case '1':
+//                System.out.println("Przypadek pierwszy.");
+//                break;
+//            case '2':
+//                System.out.println("Przypadek drugi.");
+//                break;
+//            case 'A':
+//                System.out.println("Przypadek A.");
+//                break;
+//            case 'B':
+//                System.out.println("Przypadek B.");
+//                break;
+//            default:
+//                System.out.println("Nie wybrano poprawnej opcji.");
+//                break;
+//        }
+//    }
+//}
