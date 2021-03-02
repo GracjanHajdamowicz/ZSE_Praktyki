@@ -55,12 +55,12 @@ public class zadania {
         String haslo = "tajnehaslo";
 
         if (login.equals(login)) {
-            System.out.println("Login: " +login);
+            System.out.println("Login: " + login);
         } else {
             System.out.println("Login niepoprawny");
         }
         if (haslo.equals(haslo)) {
-            System.out.println("Haslo: " +haslo);
+            System.out.println("Haslo: " + haslo);
         } else {
             System.out.println("Haslo niepoprawne");
         }
@@ -102,6 +102,7 @@ public class zadania {
 
         }
     }
+}
 
 
 
